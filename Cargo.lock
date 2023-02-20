@@ -1608,6 +1608,7 @@ dependencies = [
  "encoding_rs",
  "futures",
  "futures-util",
+ "gossip-egui",
  "hex",
  "http",
  "humansize",
@@ -1634,6 +1635,15 @@ dependencies = [
  "tracing-subscriber",
  "tungstenite",
  "zeroize",
+]
+
+[[package]]
+name = "gossip-egui"
+version = "0.1.0"
+source = "git+https://github.com/mikedilger/gossip-egui#a7c8ac8518bc769b36600f533f00bd0f15377d68"
+dependencies = [
+ "eframe",
+ "egui_extras",
 ]
 
 [[package]]
